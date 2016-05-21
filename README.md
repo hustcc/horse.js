@@ -2,7 +2,7 @@
 
 > Progressive and customizable autocomplete component
 
-Browser support includes every sane browser and **IE7+**.
+includes every sane browser and **IE7+**.
 
 # Demo!
 
