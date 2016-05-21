@@ -43,7 +43,7 @@ Just link to you website use `link` and `script`.
 
 or `require`: 
 
-```
+```html
 import horse from 'horse.js';
 
 // or
