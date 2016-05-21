@@ -1,0 +1,39 @@
+{
+  "name": "horse.js",
+  "officialName": "horse.js",
+  "version": "1.0.0",
+  "summary": " <3Kb. autocomplete component of pure javascript. ",
+  "description": " < 3Kb. autocomplete component of pure javascript. ",
+  "author": {
+    "name": "atool",
+    "url": "http://www.aTool.org/"
+  },
+  "homepage": "http://hustcc.github.io/horse.js/",
+  "license": "MIT",
+  "keywords": [
+    "autocomplete",
+    "javascript",
+    "horse.js",
+    "text search",
+    "fuzzysearch",
+    "horsey"
+  ],
+  "main": "horse.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hustcc/horse.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcc/horse.js/issues"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "sh test.sh"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jshint": "*"
+  }
+}
