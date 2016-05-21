@@ -1,7 +1,7 @@
 {
   "name": "horse.js",
   "officialName": "horse.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": " <3Kb. autocomplete component of pure javascript. ",
   "description": " < 3Kb. autocomplete component of pure javascript. ",
   "author": {
@@ -18,7 +18,7 @@
     "fuzzysearch",
     "horsey"
   ],
-  "main": "horse.js",
+  "main": "dist/horse.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/hustcc/horse.js"
