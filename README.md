@@ -6,7 +6,7 @@ includes every sane browser and **IE7+**.
 
 # Demo!
 
-You can see a [live demo here](http://git.hust.cc/horse.js/).
+You can see a [live demo here](http://hustcc.github.io/horse.js/).
 
 or `USAGE` in website: [www.aTool.org](http://www.atool.org)
 
@@ -46,7 +46,7 @@ Allows you to limit the amount of search results that are displayed by `horsey`.
 
 Allows you set the event handler when select an option.
 
-**How to use the OPTIONs, can see detail in the live demo**, [live demo here](http://git.hust.cc/horse.js/).
+**How to use the OPTIONs, can see detail in the live demo**, [live demo here](http://hustcc.github.io/horse.js/).
 
 # License
 
