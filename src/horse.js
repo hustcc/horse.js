@@ -15,7 +15,7 @@
     var o = options || {};
     var limit = typeof o.limit === 'number' ? o.limit : Infinity;
     var suggestions = o.suggestions;
-    var onSelected = o.onselect ? function(li, suggestion) {defaultSelectEvent(li, suggestion); o.onselect(li, suggestion);} : defaultSelectEvent;
+    var onSelected = o.onselect || defaultSelectEvent;
 
     var ul = tag('ul', 'sey-list');
 
@@ -129,6 +129,8 @@
 
     function hide () {
       ul.className = ul.className.replace(/ sey-show/g, '');
+      unselect(selection);
+
       lis.forEach(function(li) {
         hideItem(li.li);
       });
@@ -143,7 +145,7 @@
       li.innerText = li.textContent = getText(suggestion);
       ul.appendChild(li);
       li.onclick = function() { // add select event
-        onSelected(li, suggestion);
+        onSelected(el, li, suggestion);
         hide();
       };
       return li;
@@ -272,7 +274,7 @@
       e.preventDefault();
     }
 
-    function defaultSelectEvent(li, suggestion) {
+    function defaultSelectEvent(el, li, suggestion) {
       el.value = getValue(suggestion);
     }
     // https://github.com/bevacqua/fuzzysearch/blob/master/index.js

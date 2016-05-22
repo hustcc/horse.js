@@ -21,7 +21,7 @@ void function () {
       { value: 'orange', text: 'Oranges from Moscow' },
       { value: 'lemon', text: 'Juicy lemons from the rich Amalfitan Coast' }
     ],
-    onselect: function(li, suggestion) {
+    onselect: function(input, li, suggestion) {
       alert("you select " + suggestion['text']);
     }
   });
