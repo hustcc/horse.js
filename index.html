@@ -49,7 +49,7 @@
       { value: 'orange', text: 'Oranges from Moscow' },
       { value: 'lemon', text: 'Juicy lemons from the rich Amalfitan Coast' }
     ],
-    onselect: function(li, suggestion) {
+    onselect: function(input_dom, selected_li, suggestion) {
       alert("you select " + suggestion['text']);
     }
   });
