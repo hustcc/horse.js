@@ -6,24 +6,6 @@ includes every sane browser and **IE7+**.
 
 [![Build Status](https://travis-ci.org/hustcc/horse.js.svg?branch=master)](https://travis-ci.org/hustcc/horse.js) [![npm](https://img.shields.io/npm/v/horse.js.svg?style=flat-square)](https://www.npmjs.com/package/horse.js) [![npm](https://img.shields.io/npm/dt/horse.js.svg?style=flat-square)](https://www.npmjs.com/package/horse.js) [![npm](https://img.shields.io/npm/l/horse.js.svg?style=flat-square)](https://www.npmjs.com/package/horse.js)
 
-# Demo!
-
-You can see a [live demo here](http://hustcc.github.io/horse.js/).
-
-or `USAGE` in website: [http://www.aTool.org](http://www.atool.org/)
-
-![screenshot.png](screenshot/1.png)
-
-# Inspiration
-
-I needed a fast, easy to use, and reliable autocomplete library. 
-
-The ones I stumbled upon were too bloated, too opinionated, or provided an unfriendly human experience, or the **js file is too large**.
-
-Inspirated by projects below, Thx~^_^
-
-- [https://github.com/bevacqua/horsey](https://github.com/bevacqua/horsey)
-- [https://github.com/bevacqua/fuzzysearch](https://github.com/bevacqua/fuzzysearch)
 
 # Features
 
@@ -31,6 +13,7 @@ Inspirated by projects below, Thx~^_^
 - Natural keyboard navigation
 - Fuzzy searching
 - Supports `<input>` elements
+
 
 # Install
 
@@ -41,7 +24,7 @@ Just link to you website use `link` and `script`.
 <script src="dist/horse.js"></script>
 ```
 
-or `require`: 
+or **`npm install horse.js`**, then`require`: 
 
 ```html
 import horse from 'horse.js';
@@ -50,6 +33,16 @@ import horse from 'horse.js';
 
 var horse = require("horse.js");
 ```
+
+
+# Demo!
+
+You can see a [live demo here](http://hustcc.github.io/horse.js/).
+
+or `USAGE` in website: [http://www.aTool.org](http://www.atool.org/)
+
+![screenshot.png](screenshot/1.png)
+
 
 # Example
 
@@ -69,6 +62,7 @@ horse(document.querySelector('input'), {
 
 More examples here, [live demo here](http://hustcc.github.io/horse.js/).
 
+
 # Options
 
 Entry point is `horse(el, options)`. Configuration options are detailed below.
@@ -86,6 +80,19 @@ Allows you to limit the amount of search results that are displayed by `horsey`.
 Allows you set the event handler when select an option.
 
 **How to use the OPTIONs, can see detail in the live demo**, [live demo here](http://hustcc.github.io/horse.js/).
+
+
+# Inspiration
+
+I needed a fast, easy to use, and reliable autocomplete library. 
+
+The ones I stumbled upon were too bloated, too opinionated, or provided an unfriendly human experience, or the **js file is too large**.
+
+Inspirated by projects below, Thx~^_^
+
+- [https://github.com/bevacqua/horsey](https://github.com/bevacqua/horsey)
+- [https://github.com/bevacqua/fuzzysearch](https://github.com/bevacqua/fuzzysearch)
+
 
 # License
 
